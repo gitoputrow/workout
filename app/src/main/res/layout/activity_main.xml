@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A4848"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="44dp"
+        android:text="CHALLANGE WORKOUT"
+        android:textColor="#6BA4D1"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <ImageView
+        android:id="@+id/fullbody"
+        android:layout_width="229dp"
+        android:layout_height="451dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/kosong"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/gambar_full1" />
+
+    <ImageView
+        android:id="@+id/perut"
+        android:layout_width="229dp"
+        android:layout_height="451dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/kosong"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/gambar_perut1" />
+
+    <ImageView
+        android:id="@+id/lengan"
+        android:layout_width="229dp"
+        android:layout_height="451dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/gambar_tangan1" />
+
+    <ImageView
+        android:id="@+id/dada"
+        android:layout_width="229dp"
+        android:layout_height="451dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/gambar_dada1" />
+
+    <ImageView
+        android:id="@+id/kaki"
+        android:layout_width="229dp"
+        android:layout_height="451dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/kosong"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/gambar_kaki1" />
+
+    <ImageView
+        android:id="@+id/kosong"
+        android:layout_width="229dp"
+        android:layout_height="451dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/gambar1" />
+
+    <CheckBox
+        android:id="@+id/full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FULL BODY"
+        android:textColor="#6BA4D1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <CheckBox
+        android:id="@+id/abs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABS"
+        android:textColor="#6BA4D1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/full"
+        app:layout_constraintTop_toBottomOf="@+id/full"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <CheckBox
+        android:id="@+id/arm"
+        android:layout_width="133dp"
+        android:layout_height="55dp"
+        android:text="ARM AND SHOULDER"
+        android:textColor="#6BA4D1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/chest"
+        app:layout_constraintTop_toBottomOf="@+id/chest"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <CheckBox
+        android:id="@+id/leg"
+        android:layout_width="133dp"
+        android:layout_height="55dp"
+        android:text="LEGS"
+        android:textColor="#6BA4D1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/perut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/arm"
+        app:layout_constraintTop_toBottomOf="@+id/arm"
+        app:layout_constraintVertical_bias="0.79" />
+
+    <CheckBox
+        android:id="@+id/chest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHEST"
+        android:textColor="#6BA4D1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/abs"
+        app:layout_constraintTop_toBottomOf="@+id/abs"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="129dp"
+        android:layout_height="101dp"
+        android:background="@drawable/ripple"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullbody"
+        app:layout_constraintVertical_bias="0.484"
+        app:srcCompat="@drawable/dumble" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
